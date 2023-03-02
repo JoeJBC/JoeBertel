@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ejemplo formulario</title>
+</head>
+<body>
+
+    <h1> Ejemplo formulario</h1>
+
+    <form action="">
+
+     <fieldset>
+
+        <legend>Datos Personales</legend>
+
+        <label>Cedula</label>
+        <input type="text" autofocus placeholder="Numero Cedula" required > <br>
+
+        
+        <label>Nombre</label>
+        <input type="text" required readonly value="CECAR"> <br>
+
+        <label>Contraseña</label>
+        <input type="password"> <br>
+
+    </fieldset>
+
+        <label>Fecha nacimiento</label>
+        <input type="date"> <br>
+
+       <label>Fecha consulta</label>
+       <input type="datetime-local"> <br>
+
+       <label>Hora de nacimiento</label>
+       <input type="time"> <br>
+
+       <label>Sexo</label> <br>
+       <input type="radio" name="sexo" > Hombre <br>
+       <input type="radio" name="sexo"> Mujer <br>
+
+       <label> Deportes que practicas</label> <br>
+       <input type="checkbox"> Futbol <br>
+       <input type="checkbox"> Baloncesto <br>
+       <input type="checkbox"> Voleibol <br>
+       <input type="checkbox"> Tenis <br>
+       <input type="checkbox"> Balon mano <br>
+
+
+        <label>Subir Taller</label><br>
+        <input type="file"> <br>
+
+        <label>Correo Electronico</label>
+        <input type="email"><br>
+
+        <label>Profesion</label>
+        <select name="" id="">
+            <option value="IS">Ingeneria Sistemas</option>
+            <option value="II">Ingeneria Industrial</option>
+            <option value="AQ">Arquictectura</option>
+            <option value="DI">Diseño Industrial</option>
+        </select><br>
+
+
+         <label>Comentame algo de ti</label><br>
+         <textarea cols="30" rows="10"></textarea>
+
+
+
+
+       <input type="button" value="Guardar Cambios"> <br>
+       <input type="submit" value="Enviar">
+       <input type="reset" value="Limpiar formulario">
+
+
+
+
+    </form>
+</body>
+</html>
